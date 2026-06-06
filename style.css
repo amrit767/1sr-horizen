@@ -98,6 +98,7 @@ nav button{
     display:flex;
     justify-content:space-between;
     align-items:end;
+    position:relative;
  } 
 
 .arcadeImage{
@@ -105,6 +106,13 @@ nav button{
     border:solid rgb(23, 23, 23);
     border-radius:50px;
     border-width:20px;
+}
+
+.picduv1{
+    color:white;
+    position:absolute;
+    left:10px;
+    bottom:10px;
 }
 
 
