@@ -143,20 +143,21 @@ nav button {
     align-items: center;
 }
 
-.btnS {}
+/* .btnS {} */
 
 .playBtn {
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(251, 211, 168);
     background-color: red;
     border: red;
-    border-radius: 50px;
-    padding: 15px
+    border-radius: 20px;
+    padding: 15px;
+    font-weight:1px;
 }
 
 .frontHR {
-    height: 5px;
-    weight: auto;
+    height: 2px;
+    width: auto;
     margin: 70px;
     color: red;
     background-color: red;
@@ -174,7 +175,7 @@ nav button {
     height: 400px;
     width: 600px;
     background-color: rgb(23, 23, 23);
-    border: solid red;
+    border:0.5px solid red;
     border-radius: 20px;
     padding: 5px 20px;
     margin: 20px;
@@ -184,6 +185,10 @@ nav button {
 .hruptext {
     font-size: 70px;
     color: rgb(251, 211, 168)
+}
+
+#hruptext2{
+    color:rgb(117, 100, 83)
 }
 
 .hrdowntext {
@@ -217,3 +222,104 @@ nav button {
     text-align: center;
     padding: 100px;
 }
+
+
+
+
+
+/* about.html */
+
+
+
+.AboutHtmlContainer1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid rgb(23, 23, 23);
+    border-radius: 20px;
+    height: 700px;
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(23, 23, 23);
+    padding: 30px;
+    gap: 30px
+}
+
+.AboutHtmlContainer1Div {
+    height: 600px;
+    width: 550px;
+    border: solid rgb(36, 36, 36);
+    border-radius: 30px;
+    background-color: rgb(36, 36, 36);
+    padding: 25px;
+    gap: 30px;
+}
+
+#AboutHtmlContainer1TextDiv {
+    color: rgb(255, 225, 200);
+    font-size: x-large;
+}
+
+#AboutHtmlContainer1TextDivInsideSpan {
+    color: white;
+}
+
+#AboutHtmlContainer1PhotoDiv {
+    background-image: url(https://i.pinimg.com/736x/e2/28/96/e228965d5872b78c65a7120d6298d282.jpg);
+    background-image: cover;
+}
+
+.AboutHtmlContainer1TextDivInsideSpan-OurStory {
+    text-align: center;
+}
+
+.storyH1 {
+    text-decoration: wavy;
+    font-style: italic;
+}
+
+.AboutHtmlContainer2{
+display:flex;
+justify-content:space-evenly;
+align-items:center;
+border:solid rgb(36, 36, 36);
+width:auto;
+height:350px;
+margin-left:50px;
+padding:30px;
+gap:30px
+}
+
+.AboutHtmlContainer2Div{
+height:250px;
+width:600px;
+border:2px solid red;
+border-radius:20px;
+background-color:rgb(23, 23, 23);
+text-align :center;
+padding:30px;
+font-size:larger;
+color:rgb(255, 225, 200);
+}
+
+.High-Stakes-Precision--Pixel-Perfect-design{
+    color:white;
+}
+
+.AboutHtmlContainer3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.AboutHtmlContainer3H1{
+    text-align:center;
+    text-decoration:bold;
+}
+
+/* .AboutHtmlContainer3H1DownHr{
+    height:1px;
+    width:100px;
+    background-color:red;
+} */
