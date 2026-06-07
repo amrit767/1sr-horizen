@@ -309,8 +309,11 @@ color:rgb(255, 225, 200);
 
 .AboutHtmlContainer3{
     display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:center;
+    padding:20px;
+    margin:20px;
+    gap:20px;
 }
 
 .AboutHtmlContainer3H1{
@@ -322,4 +325,49 @@ color:rgb(255, 225, 200);
     height:1px;
     width:100px;
     background-color:red;
+} */
+
+.AboutHtmlContainer3Div{
+    height:200px;
+    width:400px;
+    border:3px solid red;
+    border-radius:20px;
+    /* gap:30px; */
+    background-color:rgb(23, 23, 23);
+text-align:center;
+}
+
+.AboutHtmlContainer4{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.AboutHtmlContainer4Div{
+    height:600px;
+    width:400px;
+    border:solid white;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.AboutHtmlContainer4Div-Div{
+    height:500px;
+    width:380px;
+    border:solid yellow;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/074/142/042/non_2x/pixelated-silhouette-of-human-figure-dissolving-into-particles-digital-decay-glitch-effect-retro-pixel-art-isolated-on-white-vector.jpg);
+    background-size:cover;
+    background-position:center;
+    filter:brightness(90%);
+    border-radius:30px;
+    padding:20px;
+    margin:20px;
+}
+
+/* .AboutHtmlContainer4Div-Div-Div{
+    height:100px;
+    width:380px;
+    border:solid red;
+
 } */
