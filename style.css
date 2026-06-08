@@ -452,21 +452,26 @@ nav button {
 .FeaturesHtmlContainer1 {
     display: flex;
     justify-content: space-between;
-    border: solid white;
+    border: 10px solid rgb(23, 23, 23);
+    padding: 5px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 50px;
+    gap:15px;
 }
 
-.FeaturesHtmlContainer2{
-    display:flex;
-    justify-content:space-between;
-    padding:30px;
+.FeaturesHtmlContainer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .FeaturesDiv1 {
-    height: 650px;
-    width: 850px;
-    border: solid yellow;
+    height: 100vh;
+    width: 750px;
+    border: solid rgb(23, 23, 23);
     border-radius: 50px;
     padding: 50px;
+    background-color: rgb(36, 36, 36);
 }
 
 #Div1-Div1 {
@@ -474,7 +479,7 @@ nav button {
     height: 50px;
     font-size: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -483,79 +488,102 @@ nav button {
     font-size: 25px;
 }
 
-.Div1-Div1-Hr{
-    background-color:rgb(36, 36, 36);
-    size:2px;
+.Div1-Div1-Hr {
+    background-color: rgb(36, 36, 36);
+    size: 2px;
 }
 
-.Div1-Div2-Div{
-    border:4px solid rgb(23, 23, 23);
-    font-size:30px;
-    text-align:center;
-    border-radius:20px;
-    padding:15px;
+.Div1-Div2-Div {
+    border: 4px solid rgb(23, 23, 23);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
 }
 
-.Div1-Div2-Div1-Span{
-    color:rgb(251, 211, 168);
+.Div1-Div2-Div1-Span {
+    color: rgb(251, 211, 168);
 }
 
-.FeaturesHtmlContainer3{
-    border:3px solid rgb(23, 23, 23);
-    padding:20px;
-    background-color:rgb(23, 23, 23);
-border-radius:20px;
+.FeaturesHtmlContainer3 {
+    border: 3px solid rgb(23, 23, 23);
+    padding: 20px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 20px;
 }
 
-#FeaturesHtmlContainer3-Div1{
-    color:rgb(251, 211, 168);
+#FeaturesHtmlContainer3-Div1 {
+    color: rgb(251, 211, 168);
 }
 
-#FeaturesHtmlContainer3-Div2{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+#FeaturesHtmlContainer3-Div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#FeaturesHtmlContainer3-Div1{
-    font-size:20px;
+#FeaturesHtmlContainer3-Div1 {
+    font-size: 20px;
 }
 
-.FeaturesHtmlContainer3-Div2-Div{
-    border:1px solid white;
-    padding:15px;
-    border-radius:50px;
+.FeaturesHtmlContainer3-Div2-Div {
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 50px;
 }
 
 .FeaturesDiv2 {
-    border:solid red;
-    width:400px;
-    border-radius:50px;
-    padding:40px;
+    border: solid rgb(23, 23, 23);
+    width: 500px;
+    border-radius: 50px;
+    padding: 40px;
+    background-color: rgb(36, 36, 36);
 }
 
-.FeaturesHtmlContainer4{
-    border:solid orange;
-}
-
-.FeaturesDiv2-P{
-    border:solid blue;
-    font-size:40px;
-    padding:30px;
+.FeaturesHtmlContainer4 {
+    border: solid rgb(23, 23, 23);
     border-radius:20px;
-    text-align:center;
+    background-color:rgb(23, 23, 23);
 }
 
-.FeaturesDiv2--Div{
-    border:solid green;
-    height:90px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:10px;
-    font-size:20px;
+.FeaturesDiv2-P {
+    border: solid rgb(36, 36, 36);
+    font-size: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color:rgb(36, 36, 36);
 }
 
-.FeaturesHtmlContainer4--Span{
-color:rgb(251, 211, 168);
+.FeaturesDiv2--Div {
+    border: solid rgb(36, 36, 36);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color:rgb(36, 36, 36);
+}
+
+.FeaturesHtmlContainer4--Span {
+    color: rgb(251, 211, 168);
+}
+
+.FeaturesDiv2-P-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid rgb(23, 23, 23);
+    padding: 5px;
+    background-color:rgb(23, 23, 23);
+    border-radius:30px;
+}
+
+#FeaturesDiv2-P-Container-Div2 {
+    color: grey;
+    font-size: 25px;
+    border: solid rgb(23, 23, 23);
+    background-color:rgb(23, 23, 23);
 }
