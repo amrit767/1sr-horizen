@@ -152,7 +152,7 @@ nav button {
     border: red;
     border-radius: 20px;
     padding: 15px;
-    font-weight:1px;
+    font-weight: 1px;
 }
 
 .frontHR {
@@ -175,7 +175,7 @@ nav button {
     height: 400px;
     width: 600px;
     background-color: rgb(23, 23, 23);
-    border:0.5px solid red;
+    border: 0.5px solid red;
     border-radius: 20px;
     padding: 5px 20px;
     margin: 20px;
@@ -187,8 +187,8 @@ nav button {
     color: rgb(251, 211, 168)
 }
 
-#hruptext2{
-    color:rgb(117, 100, 83)
+#hruptext2 {
+    color: rgb(117, 100, 83)
 }
 
 .hrdowntext {
@@ -279,46 +279,46 @@ nav button {
     font-style: italic;
 }
 
-.AboutHtmlContainer2{
-display:flex;
-justify-content:space-evenly;
-align-items:center;
-border:solid rgb(36, 36, 36);
-width:auto;
-height:350px;
-margin-left:50px;
-padding:30px;
-gap:30px
+.AboutHtmlContainer2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid rgb(36, 36, 36);
+    width: auto;
+    height: 350px;
+    margin-left: 50px;
+    padding: 30px;
+    gap: 30px
 }
 
-.AboutHtmlContainer2Div{
-height:250px;
-width:600px;
-border:2px solid red;
-border-radius:20px;
-background-color:rgb(23, 23, 23);
-text-align :center;
-padding:30px;
-font-size:larger;
-color:rgb(255, 225, 200);
+.AboutHtmlContainer2Div {
+    height: 250px;
+    width: 600px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
+    padding: 30px;
+    font-size: larger;
+    color: rgb(255, 225, 200);
 }
 
-.High-Stakes-Precision--Pixel-Perfect-design{
-    color:white;
+.High-Stakes-Precision--Pixel-Perfect-design {
+    color: white;
 }
 
-.AboutHtmlContainer3{
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    padding:20px;
-    margin:20px;
-    gap:20px;
+.AboutHtmlContainer3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
 }
 
-.AboutHtmlContainer3H1{
-    text-align:center;
-    text-decoration:bold;
+.AboutHtmlContainer3H1 {
+    text-align: center;
+    text-decoration: bold;
 }
 
 /* .AboutHtmlContainer3H1DownHr{
@@ -327,42 +327,44 @@ color:rgb(255, 225, 200);
     background-color:red;
 } */
 
-.AboutHtmlContainer3Div{
-    height:200px;
-    width:400px;
-    border:3px solid red;
-    border-radius:20px;
+.AboutHtmlContainer3Div {
+    height: 200px;
+    width: 400px;
+    border: 3px solid red;
+    border-radius: 20px;
     /* gap:30px; */
-    background-color:rgb(23, 23, 23);
-text-align:center;
+    background-color: rgb(23, 23, 23);
+    text-align: center;
 }
 
-.AboutHtmlContainer4{
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
+.AboutHtmlContainer4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.AboutHtmlContainer4Div{
-    height:600px;
-    width:400px;
-    border:solid white;
-    display:flex;
-    justify-content:center;
-    padding:20px;
-}
-
-.AboutHtmlContainer4Div-Div{
-    height:500px;
-    width:380px;
-    border:solid yellow;
-    background-image:url(https://static.vecteezy.com/system/resources/previews/074/142/042/non_2x/pixelated-silhouette-of-human-figure-dissolving-into-particles-digital-decay-glitch-effect-retro-pixel-art-isolated-on-white-vector.jpg);
-    background-size:cover;
-    background-position:center;
-    filter:brightness(90%);
+.AboutHtmlContainer4Div {
+    height: 600px;
+    width: 400px;
+    border: solid rgb(23, 23, 23);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
     border-radius:30px;
-    padding:20px;
-    margin:20px;
+    background-color:rgb(23, 23, 23);
+}
+
+.AboutHtmlContainer4Div-Div {
+    height: 500px;
+    width: 380px;
+    border: solid rgb(23, 23, 23);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/074/142/042/non_2x/pixelated-silhouette-of-human-figure-dissolving-into-particles-digital-decay-glitch-effect-retro-pixel-art-isolated-on-white-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 
 /* .AboutHtmlContainer4Div-Div-Div{
@@ -371,3 +373,49 @@ text-align:center;
     border:solid red;
 
 } */
+
+.AboutHtmlContainer5{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    height:120px;
+    width:auto;
+    padding:20px;
+    border:solid rgb(23, 23, 23);
+    border-radius:30px;
+    margin:30px;
+    background-color:rgb(23, 23, 23);
+}
+
+.AboutHtmlContainer5Div{
+    height:85px;
+    width:380px;
+    border:1px solid rgb(23, 23, 23);
+    border-radius:30px;
+    margin:20px;
+    color:white;
+    font-style:bold;
+    font-size:34px;
+    padding:15px;
+    background-color:rgb(36, 36, 36);
+}
+
+.AboutHtmlContainer5DivSpan{
+    color:rgb(251, 211, 168);
+}
+
+.AboutHtmlContainer6[
+    display:flex;
+    align-items:center;
+    justify-content:center;
+]
+
+.AboutHtmlBtn{
+    font-size:50px;
+    padding:15px;
+    border:solid red;
+    background-color:red;
+    border-radius:20px;
+    color:white;
+    text-align:center;
+}
