@@ -449,24 +449,29 @@ nav button {
     color: rgb(251, 211, 168);
 }
 
-.FeaturesHtmlContainer1, .FeaturesHtmlContainer2 {
+.FeaturesHtmlContainer1 {
     display: flex;
     justify-content: space-between;
     border: solid white;
 }
 
+.FeaturesHtmlContainer2{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+}
+
 .FeaturesDiv1 {
-    height: 500px;
+    height: 650px;
     width: 850px;
     border: solid yellow;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 50px;
 }
 
 #Div1-Div1 {
     width: 850px;
     height: 50px;
-    border: solid green;
     font-size: 50px;
     display: flex;
     justify-content: space-between;
@@ -484,9 +489,11 @@ nav button {
 }
 
 .Div1-Div2-Div{
-    border:solid red;
+    border:4px solid rgb(23, 23, 23);
     font-size:30px;
     text-align:center;
+    border-radius:20px;
+    padding:15px;
 }
 
 .Div1-Div2-Div1-Span{
@@ -494,7 +501,10 @@ nav button {
 }
 
 .FeaturesHtmlContainer3{
-    border:solid blue;
+    border:3px solid rgb(23, 23, 23);
+    padding:20px;
+    background-color:rgb(23, 23, 23);
+border-radius:20px;
 }
 
 #FeaturesHtmlContainer3-Div1{
@@ -517,4 +527,35 @@ nav button {
     border-radius:50px;
 }
 
-.FeaturesDiv2 {}
+.FeaturesDiv2 {
+    border:solid red;
+    width:400px;
+    border-radius:50px;
+    padding:40px;
+}
+
+.FeaturesHtmlContainer4{
+    border:solid orange;
+}
+
+.FeaturesDiv2-P{
+    border:solid blue;
+    font-size:40px;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.FeaturesDiv2--Div{
+    border:solid green;
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    font-size:20px;
+}
+
+.FeaturesHtmlContainer4--Span{
+color:rgb(251, 211, 168);
+}
