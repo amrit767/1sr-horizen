@@ -449,7 +449,7 @@ nav button {
     color: rgb(251, 211, 168);
 }
 
-.FeaturesHtmlContainer1 {
+.FeaturesHtmlContainer1, .FeaturesHtmlContainer2 {
     display: flex;
     justify-content: space-between;
     border: solid white;
@@ -483,6 +483,38 @@ nav button {
     size:2px;
 }
 
+.Div1-Div2-Div{
+    border:solid red;
+    font-size:30px;
+    text-align:center;
+}
 
+.Div1-Div2-Div1-Span{
+    color:rgb(251, 211, 168);
+}
+
+.FeaturesHtmlContainer3{
+    border:solid blue;
+}
+
+#FeaturesHtmlContainer3-Div1{
+    color:rgb(251, 211, 168);
+}
+
+#FeaturesHtmlContainer3-Div2{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#FeaturesHtmlContainer3-Div1{
+    font-size:20px;
+}
+
+.FeaturesHtmlContainer3-Div2-Div{
+    border:1px solid white;
+    padding:15px;
+    border-radius:50px;
+}
 
 .FeaturesDiv2 {}
