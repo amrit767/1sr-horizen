@@ -350,8 +350,8 @@ nav button {
     display: flex;
     justify-content: center;
     padding: 20px;
-    border-radius:30px;
-    background-color:rgb(23, 23, 23);
+    border-radius: 30px;
+    background-color: rgb(23, 23, 23);
 }
 
 .AboutHtmlContainer4Div-Div {
@@ -374,48 +374,115 @@ nav button {
 
 } */
 
-.AboutHtmlContainer5{
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-    height:120px;
-    width:auto;
-    padding:20px;
-    border:solid rgb(23, 23, 23);
-    border-radius:30px;
-    margin:30px;
-    background-color:rgb(23, 23, 23);
+.AboutHtmlContainer5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    width: auto;
+    padding: 20px;
+    border: solid rgb(23, 23, 23);
+    border-radius: 30px;
+    margin: 30px;
+    background-color: rgb(23, 23, 23);
 }
 
-.AboutHtmlContainer5Div{
-    height:85px;
-    width:380px;
-    border:1px solid rgb(23, 23, 23);
-    border-radius:30px;
-    margin:20px;
-    color:white;
-    font-style:bold;
-    font-size:34px;
-    padding:15px;
+.AboutHtmlContainer5Div {
+    height: 85px;
+    width: 380px;
+    border: 1px solid rgb(23, 23, 23);
+    border-radius: 30px;
+    margin: 20px;
+    color: white;
+    font-style: bold;
+    font-size: 34px;
+    padding: 15px;
+    background-color: rgb(36, 36, 36);
+}
+
+.AboutHtmlContainer5DivSpan {
+    color: rgb(251, 211, 168);
+}
+
+.AboutHtmlContainer6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutHtmlBtn {
+    font-size: 50px;
+    padding: 15px;
+    border: solid red;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* features.html */
+
+
+
+.FeaturesHtmlBody {
+    margin: 30px;
+}
+
+.FeaturesH2 {
+    font-size: 30px;
+    color: rgb(251, 211, 168);
+}
+
+.spanP {
+    font-size: 90px;
+    color: rgb(251, 211, 168);
+}
+
+.master {
+    color: white;
+}
+
+.spanP2 {
+    font-size: 40px;
+    color: rgb(251, 211, 168);
+}
+
+.FeaturesHtmlContainer1 {
+    display: flex;
+    justify-content: space-between;
+    border: solid white;
+}
+
+.FeaturesDiv1 {
+    height: 500px;
+    width: 850px;
+    border: solid yellow;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+#Div1-Div1 {
+    width: 850px;
+    height: 50px;
+    border: solid green;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Div1-Div1-Span1 {
+    color: grey;
+    font-size: 25px;
+}
+
+.Div1-Div1-Hr{
     background-color:rgb(36, 36, 36);
+    size:2px;
 }
 
-.AboutHtmlContainer5DivSpan{
-    color:rgb(251, 211, 168);
-}
 
-.AboutHtmlContainer6[
-    display:flex;
-    align-items:center;
-    justify-content:center;
-]
 
-.AboutHtmlBtn{
-    font-size:50px;
-    padding:15px;
-    border:solid red;
-    background-color:red;
-    border-radius:20px;
-    color:white;
-    text-align:center;
-}
+.FeaturesDiv2 {}
