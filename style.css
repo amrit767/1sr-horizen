@@ -456,7 +456,7 @@ nav button {
     padding: 5px;
     background-color: rgb(23, 23, 23);
     border-radius: 50px;
-    gap:15px;
+    gap: 15px;
 }
 
 .FeaturesHtmlContainer2 {
@@ -542,8 +542,8 @@ nav button {
 
 .FeaturesHtmlContainer4 {
     border: solid rgb(23, 23, 23);
-    border-radius:20px;
-    background-color:rgb(23, 23, 23);
+    border-radius: 20px;
+    background-color: rgb(23, 23, 23);
 }
 
 .FeaturesDiv2-P {
@@ -551,7 +551,7 @@ nav button {
     font-size: 40px;
     padding: 30px;
     border-radius: 20px;
-    background-color:rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36);
 }
 
 .FeaturesDiv2--Div {
@@ -564,7 +564,7 @@ nav button {
     font-size: 30px;
     border-radius: 20px;
     margin: 10px;
-    background-color:rgb(36, 36, 36);
+    background-color: rgb(36, 36, 36);
 }
 
 .FeaturesHtmlContainer4--Span {
@@ -577,13 +577,65 @@ nav button {
     align-items: center;
     border: solid rgb(23, 23, 23);
     padding: 5px;
-    background-color:rgb(23, 23, 23);
-    border-radius:30px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 30px;
 }
 
 #FeaturesDiv2-P-Container-Div2 {
     color: grey;
     font-size: 25px;
     border: solid rgb(23, 23, 23);
-    background-color:rgb(23, 23, 23);
+    background-color: rgb(23, 23, 23);
+}
+
+.FeaturesHtmlContainer5 {
+    border: solid white;
+    padding: 30px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+#FeaturesHtmlContainer5-Div-Div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.FeaturesHtmlContainer5-Div-Div {
+    border: solid yellow;
+    width: 500px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.FeaturesHtmlContainer5-Div-Div1-Span {
+    color: grey;
+    font-size: 25px;
+}
+
+#FeaturesHtmlContainer5-Div-Div2 {
+    text-align: center;
+    color: rgb(187, 185, 185);
+    font-size: 30px;
+}
+
+.FeaturesHtmlContainer5-Div-Div3-Span {
+    color: rgb(251, 198, 142);
+    font-size: 70px;
+}
+
+#FeaturesHtmlContainer5-Div-Div4 {
+    color: rgb(251, 198, 142);
+}
+
+#FeaturesHtmlContainer5-Div-Div5-Div1 {
+    border: solid red;
+    height: 350px;
+    background-image: url(https://www.bequiet.com/admin/ImageServer.php?ID=37005@be-quiet.net&colorspace=rgb&force=true);
+    background-size: cover;
+}
+
+.FeaturesHtmlContainer5-Div-Div1-SpanFeaturesHtmlContainer5-Div-Div1-Span{
+
 }
