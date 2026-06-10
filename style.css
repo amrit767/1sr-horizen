@@ -747,7 +747,7 @@ padding:15px;
 
 
 .FeaturesHtmlContainer7 {
-    border: 10px solid white;
+    border: 10px solid grey;
     border-radius: 30px;
     padding: 15px;
     display: flex;
@@ -756,7 +756,7 @@ padding:15px;
 }
 
 .FeaturesHtmlContainer7-Div {
-    border: 5px solid white;
+    border: 5px solid grey;
     margin: 10px;
     padding: 10px;
     border-radius: 15px;
@@ -768,7 +768,6 @@ padding:15px;
     display: flex;
     justify-content: space-evenly;
     align-items: space-between;
-    border: solid yellow;
     color: grey;
 }
 
@@ -777,7 +776,8 @@ padding:15px;
 }
 
 .FeaturesHtmlContainer7-Div1-Div {
-    border: solid blue;
+    border: solid rgb(36, 36, 36);
+    border-radius: 20px;
     padding: 10px;
     color: grey;
 }
@@ -804,20 +804,20 @@ padding:15px;
 }
 
 .FeaturesHtmlContainer7-Div1-Div3-Container-Div {
-    border: solid yellow;
+    border: solid grey;
+    border-radius: 20px;
     padding: 8px;
     color: grey;
 }
 
 .FeaturesHtmlContainer7-Div2-Div {
-    border: solid red;
+    border: solid rgb(36, 36, 36);
     height: 180px;
     border-radius: 20px;
     width: 195px;
 }
 
 .pig {
-    border: solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -827,22 +827,46 @@ padding:15px;
     background-image: url(https://devtalk.blender.org/uploads/default/original/3X/9/5/955d2e7502b128ca6b3fbe4200c02205dfe2ad0e.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    filter: grayscale(100%) brightness(0.6);
+    opacity: 0.7;
 }
 
 #FeaturesHtmlContainer7-Div2-Div2 {
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.7;
+    filter: grayscale(100%) brightness(0.6);
     background-image: url(https://play-lh.googleusercontent.com/TTx4HWXHDpy6qoAEd8ZHIYLpLhzT0mbUq1AgTO0YB665RfiInMmfPfp9RwY6YuGLPb5Wjc3BjPfy85EMyJEECg);
 }
 
 #FeaturesHtmlContainer7-Div2-Div3 {
     background-size: cover;
+    filter: grayscale(100%) brightness(0.6);
+    opacity: 0.7;
     background-repeat: no-repeat;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcKmtk5bE2Axuo7Y_AlQSDRijdq3FvIbTANQ&s);
 }
 
 #FeaturesHtmlContainer7-Div2-Div4 {
     background-size: cover;
+    filter: grayscale(100%) brightness(0.6);
+    opacity: 0.7;
     background-repeat: no-repeat;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FiGPaP8l8lfrkX5N3jgqQg98YzE-XOtGhw&s);
 }
+/* 
+.FeaturesFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.FeaturesFooterDiv {
+    width: 100vh;
+    height: 200px;
+    font-size: xx-large;
+    background-color: rgb(23, 23, 23);
+    color: rgb(109, 107, 107);
+    text-align: center;
+    padding: 100px;
+
+} */
