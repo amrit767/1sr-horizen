@@ -854,6 +854,7 @@ padding:15px;
     background-repeat: no-repeat;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FiGPaP8l8lfrkX5N3jgqQg98YzE-XOtGhw&s);
 }
+
 /* 
 .FeaturesFooter {
     display: flex;
@@ -870,3 +871,42 @@ padding:15px;
     padding: 100px;
 
 } */
+
+
+
+
+
+
+
+/* play.html */
+
+
+
+
+
+
+
+.PlayHtmlContainer--MAIN {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid green;
+    padding: 30px;
+}
+
+.PlayHtmlContainer1 {
+    border: solid yellow;
+    padding: 30px;
+
+}
+
+.PlayHtmlContainer1-Div1,
+.PlayHtmlContainer1-Div2,
+.main-1,
+.main-2,
+.start-1,
+.start-2,
+.start-3 {
+    border: solid white;
+    padding: 30px
+}
