@@ -1108,7 +1108,7 @@ padding:15px;
     padding:10px;
     border-radius:10px;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
 }
 
@@ -1117,7 +1117,7 @@ padding:15px;
     padding:10px;
     border-radius:10px;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
 }
 
@@ -1126,6 +1126,10 @@ padding:15px;
     padding:10px;
     border-radius:10px;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
+}
+
+#haha{
+    width:300px;
 }
