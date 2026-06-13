@@ -425,9 +425,13 @@ nav button {
 /* features.html */
 
 
+.lalal{
+    margin:30px;
+    padding:30px;
+}
+
 
 .FeaturesHtmlBody {
-    margin: 30px;
 }
 
 .FeaturesH2 {
