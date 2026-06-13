@@ -16,6 +16,11 @@ after winning autommaticly a new round emerges.
 
 i have used html css and basic js as i am learning it .
 
+there is also a dummy leaderboard.
+
+it also contain images and navbar so it can be intrective and easy to access everything.
+
 author = Amrit Sood.
 
 now ill add some transitions if possible.
+
