@@ -935,8 +935,9 @@ padding:15px;
     align-items:center;
 }
 
-.conclusion-label{
+#conclusion-label{
     text-align:cenetr;
+    font-size:30px;
 }
 
 .main-1-1-Span1 {
@@ -1225,4 +1226,8 @@ padding:15px;
     border: solid rgb(23, 23, 23);
     border-radius: 20px;
     background-color: rgb(23, 23, 23);
+}
+
+#history{
+    font-size: 30px;
 }

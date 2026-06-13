@@ -1,13 +1,13 @@
 const maxNum = 100;
 const minNum = 1;
 
-const answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+let answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
 
 const input = document.querySelector(".myInput");
 const button = document.querySelector(".myBtn");
 const stdout = document.querySelector("#stdout");
 const conclusion = document.querySelector("#conclusion-label");
-const history = document.querySelector{ "#history"}
+const historyElement = document.querySelector("#history");
 
 let attempts = 0;
 let guesses = [];
@@ -35,6 +35,7 @@ button.onclick = function () {
 
     }
 
+    attempts++
 
     if (guess > answer) {
         stdout.textContent = `STDOUT: ATTEMPT ${attempts}`;
@@ -49,7 +50,7 @@ button.onclick = function () {
     else if (guess < answer) {
 
         stdout.textContent = `STDOUT ATTEMPT ${attempts}`;
-        conclusion.textContent = `${guess} IS TOO HIGH`;
+        conclusion.textContent = `${guess} IS TOO LOW`;
         guesses.push(
             `attempts ${attempts}: ${guess} > TOO LOW`
         );
@@ -60,28 +61,27 @@ button.onclick = function () {
 
         stdout.textContent = `STDOUT ATTEMPT ${attempts}`;
         conclusion.textContent = `${guess} IS THE CORRECT ANSWER`;
-        guesses.push(
-            `attempts ${attempts}: ${guess} > CORRECT`
-        );
-        history.innerHTML = guesses.join("<br>");
+        guesses.push(`attempts ${attempts}: ${guess} > CORRECT`);
+        historyElement.innerHTML = guesses.join("<br>");
+
+        input.disabled = true;
+        button.disabled = true;
         setTimeout(newGame, 3000);
-
-
-
     }
 };
 
-function newGame(){
+function newGame() {
     answer = Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
-    attempts = 0 ;
-    guesses = [] ;
-    history.innerHTML = "NEW ROUND STARTED" ;
+    attempts = 0;
+    guesses = [];
+    history.innerHTML = "NEW ROUND STARTED";
     stdout.textContent = "STDOUT: WAITING...";
     conclusion.textContent = "CONCLUSION OF YOUR GUESS";
     input.value = "";
     input.disabled = false;
     button.disabled = false;
 
+    console.log("NEW ANSWER = ", answer);
 }
 
 input.addEventListener("keydown", function (event) {
@@ -90,4 +90,4 @@ input.addEventListener("keydown", function (event) {
     }
 });
 
-console.log("ANSWER = " , answer);
+console.log("ANSWER = ", answer);
